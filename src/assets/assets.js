@@ -115,7 +115,7 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "Great Stack",
+    "username": "Yash Bachwani",
     "email": "user.greatstack@gmail.com",
     "image": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJ2N2c5YVpSSEFVYVUxbmVYZ2JkSVVuWnFzWSJ9",
     "role": "hotelOwner",
@@ -198,7 +198,7 @@ export const roomsDummyData = [
 export const userBookingsDummyData = [
     {
         "_id": "67f76839994a731e97d3b8ce",
-        "user": userDummyData,
+        "user": { username: "Yash Bachwani" },
         "room": roomsDummyData[1],
         "hotel": hotelDummyData,
         "checkInDate": "2025-04-30T00:00:00.000Z",
@@ -214,7 +214,7 @@ export const userBookingsDummyData = [
     },
     {
         "_id": "67f76829994a731e97d3b8c3",
-        "user": userDummyData,
+        "user": { username: "Yash Bachwani" },
         "room": roomsDummyData[0],
         "hotel": hotelDummyData,
         "checkInDate": "2025-04-27T00:00:00.000Z",
@@ -230,7 +230,7 @@ export const userBookingsDummyData = [
     },
     {
         "_id": "67f76810994a731e97d3b8b4",
-        "user": userDummyData,
+        "user": { username: "Yash Bachwani" },
         "room": roomsDummyData[3],
         "hotel": hotelDummyData,
         "checkInDate": "2025-04-11T00:00:00.000Z",
